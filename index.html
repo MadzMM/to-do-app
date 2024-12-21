@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do App</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="app-container">
+            <header class="app-header">
+                <h1>To-Do App</h1>
+            </header>
+
+            <!--Task input and Add task button-->
+            <div class="task-input">
+                <input type="text" id="taskInput" placeholder="Enter a new task" />
+                <button id="addTaskBtn">Add Task</button>
+            </div>
+
+            <!--Task List-->
+            <ul class="task-list" id="taskList">
+                <li>
+                    <input type="checkbox">
+                    <span>Sample Task</span>
+                    <button>Delete</button>
+                </li>
+            </ul>
+        </div>
+
+        <script src="assets/js/app.js"></script>
+    </body>
